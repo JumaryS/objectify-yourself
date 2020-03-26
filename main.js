@@ -2,49 +2,66 @@ const myCodeImmersivesObj = {
   objectify: 'me'
 };
 
+//TOMORROWS MY BIRTHDAY!!!!!!!!//
+
+//ILL BE 24///
+
+//HAPPY QUARAnTINE GUYS//
+
+
 // Set the value of property `objectify` to be "yourself".
 
-
+myCodeImmersivesObj.objectify = 'Jumi'
 // Add the new property `isAnExcellentObject` and set it to `true`.
 
-
+myCodeImmersivesObj.isAnExcellentObject = true
 // Add the property `term` and set it to 1.
-
+myCodeImmersivesObj.term = 1
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
-
+myCodeImmersivesObj.term = myCodeImmersivesObj.term + 1
 
 // Now add a new property called `currentScore` and set it to 3.
-
+myCodeImmersivesObj.currentScore = 3
 
 // Now add a new property called `cumulativeScore` and set it to 50.
 
-
+myCodeImmersivesObj.cumulativeScore = 50
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
+myCodeImmersivesObj.cumalativeScore= myCodeImmersivesObj.cumalativeScore + myCodeImmersivesObj.currentScore
 
-
+myCodeImmersivesObj.cumalativeScore;
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
-
+myCodeImmersivesObj['I am exactly this cool']= `soooooo cool`;
 
 // Now make a new EMPTY object that represents yourself.
-
+const myself= { }
 
 // Add a `firstName` property and set it to a string.
 
-
+myself.firstName = ' Mega'
 // Add a `lastName` property and set it to a string.
-
+myself.lastName = ' Tron'
 
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
 
+myself.fullName = myself.firstName + ' ' + myself.lastName
+
 
 // Add an `age` property and set it to a number.
-
+myself.age = 23   
 
 // Add an address property and set it to an empty array.
-
+myself.address = {}
 
 // Now push three strings into that array.
+myself.address.push('my phone')   
+
+
+
+
+
+
 
 
 // Now make a new object, but this time we'll pre-populate it,
